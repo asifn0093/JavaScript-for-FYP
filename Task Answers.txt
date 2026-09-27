@@ -1,0 +1,66 @@
+Task 01
+[ 20, 40, 60 ]
+Task 02
+const highNumber = Numbers.filter(num => num > 50);
+console.log(highNumber);
+Task 03
+const {name , address : {city}} = student;
+console.log(name);
+console.log(city);
+Task 04
+const fullStack = [...frontend , ...backend]
+console.log(fullStack);
+Task 05
+const updatedStudentInfo = {
+    ...studentInfo,
+    semester : 7
+}
+console.log(updatedStudentInfo);
+Task 06
+[ 'Asif', 'Ahmed' ]
+
+Lesson 04
+
+Task 01
+const name = "Asif";
+const age = 20;
+console.log(`My name is ${name} and i'm ${age} years old`);
+
+Task 02
+const price = 500;
+const quantity = 4;
+console.log(`Total price is ${price * quantity}`)
+
+Task 03 
+const student = {
+    name: "Asif",
+    program: "BSSE",
+    semester: 7
+};
+console.log(`${student.name} is a ${student.program} student in semester ${student.semester}.`)
+
+Task 04
+const application = {
+    studentName : "Ahmad",
+    age : 22,
+    program : "BS Computer Science",
+    status : "pending"
+}
+
+const message = `Hello ${application.studentName}, your Application for ${application.program} is currently ${application.status}`;
+console.log(message);
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module</title>
+</head>
+<body>
+    <h1>See the console for module Understanding</h1>
+    <script type="Module" src="app.js"></script>
+</body>
+</html>
